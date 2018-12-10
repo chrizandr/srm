@@ -9,4 +9,7 @@ venv/*
 output/
 output/*
 
+content/data/
+content/data/*
+
 *.pid
