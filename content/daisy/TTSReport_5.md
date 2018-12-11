@@ -17,6 +17,7 @@ Tacotron 2 completed training for 200k iterations over 400 epochs. The validatio
 
 #### It can pronounce out of vocabulary words.
 "Generative adversarial network or variational auto-encoder"
+
 <audio controls>
   <source src="{filename}/data/test_1.wav" type="audio/mpeg">
 </audio>
@@ -27,6 +28,7 @@ Tacotron 2 completed training for 200k iterations over 400 epochs. The validatio
 <audio controls>
   <source src="{filename}/data/test_2.wav" type="audio/mpeg">
 </audio>
+
 "He has read the book."
 
 <audio controls>
@@ -39,6 +41,7 @@ Tacotron 2 completed training for 200k iterations over 400 epochs. The validatio
 <audio controls>
   <source src="{filename}/data/test_4.wav" type="audio/mpeg">
 </audio>
+
 "This is your personal assistant Google Home"
 
 <audio controls>
@@ -51,6 +54,7 @@ Tacotron 2 completed training for 200k iterations over 400 epochs. The validatio
 <audio controls>
   <source src="{filename}/data/test_6.wav" type="audio/mpeg">
 </audio>
+
 "Does the quick brown fox jump over the lazy dog?"
 
 <audio controls>
