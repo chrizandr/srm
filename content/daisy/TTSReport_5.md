@@ -23,7 +23,7 @@ Tacotron 2 completed training for 200k iterations over 400 epochs. The validatio
 </audio>
 
 #### It can change pronounciation based on context.
-"He reads books."
+"He reads the book."
 
 <audio controls>
   <source src="{filename}/data/test_2.wav" type="audio/mpeg">
