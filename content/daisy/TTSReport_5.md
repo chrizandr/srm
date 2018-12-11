@@ -23,36 +23,43 @@ Tacotron 2 completed training for 200k iterations over 400 epochs. The validatio
 
 #### It can change pronounciation based on context.
 "He reads books."
+
 <audio controls>
   <source src="{filename}/data/test_2.wav" type="audio/mpeg">
 </audio>
 "He has read the book."
+
 <audio controls>
   <source src="{filename}/data/test_3.wav" type="audio/mpeg">
 </audio>
 
 #### Changes prosody based on punctuation.
 "This is your personal assistant, Google Home"
+
 <audio controls>
   <source src="{filename}/data/test_4.wav" type="audio/mpeg">
 </audio>
 "This is your personal assistant Google Home"
+
 <audio controls>
   <source src="{filename}/data/test_5.wav" type="audio/mpeg">
 </audio>
 
 #### Pronounciation changes when asking a question.
 "The quick brown fox jumps over the lazy dog."
+
 <audio controls>
   <source src="{filename}/data/test_6.wav" type="audio/mpeg">
 </audio>
 "Does the quick brown fox jump over the lazy dog?"
+
 <audio controls>
   <source src="{filename}/data/test_7.wav" type="audio/mpeg">
 </audio>
 
 #### Good at tongue twisters.
 "Peter Piper picked a peck of pickled peppers. How many pickled peppers did Peter Piper pick?"
+
 <audio controls>
   <source src="{filename}/data/test_8.wav" type="audio/mpeg">
 </audio>
