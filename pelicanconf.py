@@ -32,3 +32,9 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'data']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.tables':{},
+    }
+}
+
