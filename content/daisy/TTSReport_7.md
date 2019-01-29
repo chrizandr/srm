@@ -2,7 +2,7 @@ Title: TTS Report 7
 Slug: tts-report-7
 Category: Daisy Project
 Date: 2019-01-28
-Modified: 2019-01-128
+Modified: 2019-01-28
 Authors: Chris Andrew
 
 ## Work done:
