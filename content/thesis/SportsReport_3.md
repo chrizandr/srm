@@ -58,7 +58,7 @@ These seem to be the dominant colors as mentioned in this [study](https://www.ke
 ## Results
 For the detection task, I found AP50, AP75 and AP@[.5: .95] for all categories.
 
-Results for the entire dataset:
+### Results for the entire dataset:
 
 <img src='{filename}/images/all-data.png' width="100%">
 
@@ -66,12 +66,12 @@ The average values of mAP for all classes of the MS COCO dataset for YOLOv3 are 
 
 There is a significant drop in mAP@[.5:.95] as it is only 0.21 for player detection. AP50 values are better than the average value of the model and AP75 scores are lower than the average for the model. There is a significant loss of precision as the threshold for True positives is increased to 0.75, this seems to cause a large impact on AP@[.5:.95].
 
-Results for different camera views:
+### Results for different camera views:
 
 <img src='{filename}/images/view-based.png' width="100%">
 
 
-Results for player jersey colors:
+### Results for player jersey colors:
 
 <img src='{filename}/images/color-based.png' width="100%">
 
