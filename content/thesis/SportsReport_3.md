@@ -70,10 +70,13 @@ There is a significant drop in mAP@[.5:.95] as it is only 0.21 for player detect
 
 <img src='{filename}/images/view-based.png' width="100%">
 
+We observe that zoomed out views are better for detection than zoomed in views. Even though AP50 is relatively same for all four views, we see significant decrease in score for AP75 and AP@[.5:.95] for the zoomed in views as compared to the zoomed out views. Part of the reason why this would be the case is because in zoomed in views, the whole player is not usually visible.
 
 ### Results for player jersey colors:
 
 <img src='{filename}/images/color-based.png' width="100%">
+
+There is not much disparity in detection scores based on jersey colors of the players, however some decrease in score can be seen when players wear green/yellow jerseys. This can be attributed to the fact that green/yellow matches the color profile of grass and thus it might be harder to perform detection. This still however is a small decrease.
 
 ### Jersey color and camera view results:
 
@@ -107,6 +110,11 @@ There is a significant drop in mAP@[.5:.95] as it is only 0.21 for player detect
 | green  | 0.184  | 0.197   | 0.192     | 0.207      |
 | yellow | 0.184  | 0.197   | 0.192     | 0.207      |
 
+We observe here that top-out scores are higher than all other views, but have a significant drop when green/yellow jerseys are worn. ground-in views on the other hand are higher than ground-out but there is a large drop again when green/yellow jerseys are used. We can thus say that top-out and ground-in views are better for detection and green/yellow jerseys are bad.
+
+----
+## Implementation of Rahul's paper
+I have started implementation of Rahul's paper for top view registration of players. Right now I am implementing the MRF based optimisation to find the best match in the dictionary. I have already implemented nearest neighbour based matching using HoG and CNN based features. I will implement Chamfer matching after the MRF optimisation and then move on to creating the dictionary of homography and edge image pairs.
 
 -------
 ## Work to be done
