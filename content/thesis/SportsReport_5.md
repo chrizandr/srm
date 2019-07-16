@@ -23,11 +23,19 @@ Authors: Chris Andrew
 |Formulated Ideas for using Sequence modelling to improve detection.| **Need**:  Can be used to estimate missing  detections. Can also be used for registration when player not in frame. <br> **Proposal**: Proposed a three phase pipeline for training and deployment of this model.|
 
 
-<a href="{filename}/pdfs/report-1.pdf"> Full Report </a>
+<b> <a href="{filename}/pdfs/report-1.pdf"> Full Report </a> </b> <br>
 
+--------
 ## Google Football environment
 I have finished writing code to capture data for tracking and detection using the Google Football environment.
 Bounding boxes are estimated. We have virtual players from top-zoomed out view on the field. Data of all players including those not in the field can be captured.
+
+Sample data:
+
+<img src='{filename}/images/gfootball-1.png' width="45%">
+<img src='{filename}/images/gfootball-2.png' width="45%">
+<img src='{filename}/images/gfootball-3.png' width="45%">
+
 
 -------
 ## Work to be done
