@@ -6,6 +6,7 @@ AUTHOR = 'Chris Andrew'
 SITENAME = 'MS Reports'
 SITEURL = ''
 
+THEME = 'theme/'
 PATH = 'content'
 
 TIMEZONE = 'Asia/Calcutta'
@@ -26,7 +27,7 @@ LINKS = (('Homepage', 'https://chrizandr.github.io/'),
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/chrizandr/'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 1
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -34,6 +35,27 @@ RELATIVE_URLS = True
 STATIC_PATHS = ['images', 'data', 'videos', 'pdfs']
 MARKDOWN = {
     'extension_configs': {
-        'markdown.extensions.tables':{},
+        'markdown.extensions.tables': {},
     }
 }
+
+SITEDESCRIPTION = ''
+
+# all defaults to True.
+DISPLAY_HEADER = True
+DISPLAY_FOOTER = True
+DISPLAY_HOME = True
+DISPLAY_MENU = True
+DISPLAY_PAGES_ON_MENU = True
+
+# provided as examples, they make ‘clean’ urls. used by MENU_INTERNAL_PAGES.
+CATEGORIES_URL = 'categories/index.html'
+CATEGORIES_SAVE_AS = 'categories/index.html'
+ARCHIVES_URL = 'archives/index.html'
+ARCHIVES_SAVE_AS = 'archives/index.html'
+
+# use those if you want pelican standard pages to appear in your menu
+MENU_INTERNAL_PAGES = (
+    ('Categories', CATEGORIES_URL, CATEGORIES_SAVE_AS),
+    ('All Reports', ARCHIVES_URL, ARCHIVES_SAVE_AS),
+)
