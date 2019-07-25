@@ -21,7 +21,6 @@ Authors: Chris Andrew
 |Google Football Environment.| **Need**: Lack of football data for tracking, use it to generate synthetic tracking and detection data. <br> **Finished**: Environment setup to generate data.|
 | Discussions with Vijay | -Talked about his work on Person recognition and Face recognition <br> -Discussed about what I am currently doing. <br> -Took some suggestions from him about one possible direction to proceed. <br> <a href="#discussion"> More... </a>|
 
-
 <b> <a href="{filename}/pdfs/report-1.pdf"> Compacted report of previous week </a> </b> <br>
 
 --------
@@ -30,8 +29,9 @@ Authors: Chris Andrew
 
 ### YOLOv3 (Before Finetuning)
 
-|            | AP50  | AP75  | AP@[.5:.95] |
-|------------|-------|-------|-------------|
+
+| |AP50|AP75|AP@[.5:.95]|
+|:--:|:--:|:--:|:--:|
 | All        | 0.508 | 0.157 | 0.217       |
 | top-in     | 0.568 | 0.156 | 0.23        |
 | top-out    | 0.486 | 0.215 | 0.25        |
@@ -43,11 +43,10 @@ Authors: Chris Andrew
 | green      | 0.487 | 0.138 | 0.207       |
 | yellow     | 0.487 | 0.138 | 0.207       |
 
-
 ### YOLOv3 (Finetuned on Top View data)
 
-|            | AP50  | AP75  | AP@[.5:.95] |
-|------------|-------|-------|-------------|
+| | AP50  | AP75  | AP@[.5:.95] |
+|:------------:|:-------:|:-------:|:-------------:|
 | All        | 0.355 | 0.135 | 0.168       |
 | top-in     | 0.118 | 0.026 | 0.051       |
 | top-out    | 0.875 | 0.354 | 0.428       |

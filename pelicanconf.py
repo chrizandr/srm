@@ -33,10 +33,9 @@ DEFAULT_PAGINATION = 1
 RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'data', 'videos', 'pdfs']
+MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight, linenums=True)', 'extra', 'tables']
 MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.tables': {},
-    }
+    'output_format': 'html5',
 }
 
 SITEDESCRIPTION = ''
