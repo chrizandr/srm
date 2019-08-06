@@ -10,7 +10,7 @@ Evaluated detection baselines using 4 new models
 <img src='{filename}/images/detection-bline.png'>
 
 ## Recognition
-- Ran Mask RCNN on Vijay's football dataset and extracted segmentation masks.
+- Ran Mask RCNN on my football dataset and extracted segmentation masks.
 - Tried to cluster segmentation masks together using HoG and simple descriptors and a BoW model.
 - Could not find any similarities in clusters even after clustering.
 
