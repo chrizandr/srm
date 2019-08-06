@@ -16,5 +16,5 @@ Evaluated detection baselines using 4 new models
 
 -------
 ## Work to be done
-- Plan next improvements to be made to pipeline
-- Discuss about sequence modelling and tracking
+- Integrate recognition using segmentation information.
+- See how we can create a baseline for recognition.
