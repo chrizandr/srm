@@ -5,13 +5,13 @@ Date: 2019-07-23
 Modified: 2019-07-23
 Authors: Chris Andrew
 
-<!--
+
 ## Work done:
 - Created compact report of last weeks progress
 - Wrote code to generate synthetic data using Google Football environment
 - Had discussion with Vijay about his work
 
-------- -->
+-------
 ## Work from last week
 
 |  |  |
