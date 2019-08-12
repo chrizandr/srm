@@ -27,7 +27,7 @@ LINKS = (('Homepage', 'https://chrizandr.github.io/'),
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/chrizandr/'),)
 
-DEFAULT_PAGINATION = 1
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True

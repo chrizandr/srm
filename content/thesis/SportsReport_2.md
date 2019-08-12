@@ -5,14 +5,14 @@ Date: 2019-04-29
 Modified: 2019-04-29
 Authors: Chris Andrew
 
-## Work done:
+### Work done:
 - Performed an analysis of how current object detection models perform on sports data(football)
 - Evaluated on a small test dataset for player and ball detection
 - Tried to identify the possible reasons as to why detection does not work for sports data.
 - Listed out possible workarounds.
 
 -------
-### Current models for object detection
+#### Current models for object detection
 There are a number of models that are used for object detection. Each model has a different approach to the problem and has its pros and cons. A few well known models used for object detection are:
 
 - R-CNN / Fast R-CNN / Faster R-CNN
@@ -32,7 +32,7 @@ Below is a graph showing the performance of each of the models:
 For experimentation purposes, I selected YOLOv3 as the model for evalutation. This is because YOLO gives considerably high accuracy with speed. In case of R-CNN and its variants, the accuracy of detection is extremely high, but this comes at a high computational cost and the model can only process around 17fps, which is not real time as most videos are recorded at 30+fps. SSD and its variants on the other hand have high speed but low accuracy, this is because they use low resolution images to improve computational time but loose essential information in the process.
 
 ----
-### Player Detection
+#### Player Detection
 I used a test dataset of 524 images extracted from the broadcast video of a football match. The frames were annotated with annotations for the players in each frame using bounding boxes.
 
 I ran the YOLOv3 model on each frame and tried to detect players in the images, which is the 'person' label in the MS COCO dataset, since not specific label exists for players. Once the model produced detections, I used IoU(Intersection over Union) to measure the accuracy of the model in detecting the players.
@@ -42,7 +42,7 @@ A basic diagram of the testing framework is given below:
 
 For each prediction made by the model, I find the nearest matching bounding box in the ground truth value and then calculate the IoU with this bounding box. If the IoU is above a specified threshold, the prediction is classified as valid, else it is invalid.
 
-#### Results
+##### Results
 I tried seeing how accuracy of predictions change with the IoU threshold.
 <img src='{filename}/images/player.png' width="100%">
 
@@ -76,7 +76,7 @@ Majority of the predictions are actually very good, specially when a player is i
 </video>
 
 ----
-### Ball Detection
+#### Ball Detection
 For Soccer ball detection I used a different dataset of 195 images, with the football annotated on each frame using a bounding box. In the MS COCO dataset, the 'sports ball' category is used to detect any type of sports ball including a football. Mutliple different types of sports balls are used to train the model, which also include the soccer ball.
 
 For ball detection, I used the same framework as mentioned above for testing valid/invalid detections. Since there was only one ball in each frame, the predictions are classified as either valid/invalid as well. Below we vary the IoU and see the effects on prediction accuracy:
@@ -102,5 +102,5 @@ In frames where invalid predictions were made, most cases include classifying a 
 Further investigation is needed on frames where no ball was detected as the reason for not being able to detect the ball remains unclear. It is possible that the model being trained on multiple sports balls would not be able to detect soccer balls very accurately since they usually tend to have designs and patterns on them that other sports balls lack.
 
 -------
-## Work to be done
+### Work to be done
 - Come up with an effective strategy to improve the current performance of object detection models on football data, without specifically training on such data.

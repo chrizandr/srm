@@ -6,13 +6,13 @@ Modified: 2019-07-16
 Authors: Chris Andrew
 
 
-## Work done:
+### Work done:
 - Created compact report of last weeks progress
 - Wrote code to generate synthetic data using Google Football environment
 - Had discussion with Vijay about his work
 
 -------
-## Work from last week
+### Work from last week
 
 |  |  |
 | --- | --- |
@@ -27,7 +27,7 @@ Authors: Chris Andrew
 <b> <a href="{filename}/pdfs/report-1.pdf"> Full Report </a> </b> <br>
 
 --------
-## Google Football environment
+### Google Football environment
 I have finished writing code to capture data for tracking and detection using the Google Football environment.
 Bounding boxes are estimated. We have virtual players from top-zoomed out view on the field. Data of all players including those not in the field can be captured.
 
@@ -39,7 +39,7 @@ Sample data:
 
 
 <a id="discussion"></a>
-## Discussion with Vijay
+### Discussion with Vijay
 - Had a general discussion about the approaches he used in his work on Person Recognition. His use of poses to help improve recognition for person.
 - Also had a discussion about his work on Face recognition, how he used similarities in a collection and used confident recognitions to propogate in similar frames.
 - Mentioned about dataset on soccer images, mostly zoomed in views of players, 50k annotated with tracking.
@@ -54,6 +54,6 @@ Suggestions given by Vijay:
 - Once we have confident detections and tracking, then we use the information to draw analytical inferences from the data.
 
 -------
-## Work to be done
+### Work to be done
 - Plan next improvements to be made to pipeline
 - Discuss about sequence modelling and tracking

@@ -1,24 +1,25 @@
-            {% if not articles_page or first_article_of_day %}
+            <!-- {% if not articles_page or first_article_of_day %}
             <h4 class="date">{{ article.date.strftime("%b %d, %Y") }}</h4>
-            {% endif %}
+            {% endif %} -->
 
-            <article class="post">
+            <article>
                 {% if article.title %}
+                <hr class="separate">
                 <h2 class="title">
-                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{article.date.strftime("%b %d, %Y")}}</a>
                 </h2>
                 {% endif %}
 
 		{% if not articles_page %}
 		{% include "translations.html" %}
-		{% endif %}                
-                
+		{% endif %}
+
 
                 {{ article.content }}
                 <div class="clear"></div>
 
                 <div class="info">
-                    <a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%H:%M") }}</a>
+                    <a href="{{ SITEURL }}/{{ article.url }}">posted on {{ article.date.strftime("%b %d") }}</a>
                     {% if article.category.name != "misc" %}
                     &nbsp;&middot;&nbsp;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>
                     {% endif %}

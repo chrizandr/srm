@@ -6,13 +6,13 @@ Modified: 2019-07-23
 Authors: Chris Andrew
 
 
-## Work done:
+### Work done:
 - Created compact report of last weeks progress
 - Wrote code to generate synthetic data using Google Football environment
 - Had discussion with Vijay about his work
 
 -------
-## Work from last week
+### Work from last week
 
 |  |  |
 | --- | --- |
@@ -25,9 +25,9 @@ Authors: Chris Andrew
 
 --------
 <a id="results"></a>
-## Results for detection
+### Results for detection
 
-### YOLOv3 (Before Finetuning)
+#### YOLOv3 (Before Finetuning)
 
 
 | |AP50|AP75|AP@[.5:.95]|
@@ -43,7 +43,7 @@ Authors: Chris Andrew
 | green      | 0.487 | 0.138 | 0.207       |
 | yellow     | 0.487 | 0.138 | 0.207       |
 
-### YOLOv3 (Finetuned on Top View data)
+#### YOLOv3 (Finetuned on Top View data)
 
 | | AP50  | AP75  | AP@[.5:.95] |
 |:------------:|:-------:|:-------:|:-------------:|
@@ -60,7 +60,7 @@ Authors: Chris Andrew
 
 
 <a id="discussion"></a>
-## Discussion with Vijay
+### Discussion with Vijay
 - Had a general discussion about the approaches he used in his work on Person Recognition. His use of poses to help improve recognition for person.
 - Also had a discussion about his work on Face recognition, how he used similarities in a collection and used confident recognitions to propogate in similar frames.
 - Mentioned about dataset on soccer images, mostly zoomed in views of players, 50k annotated with tracking.
@@ -75,6 +75,6 @@ Suggestions given by Vijay:
 - Once we have confident detections and tracking, then we use the information to draw analytical inferences from the data.
 
 -------
-## Work to be done
+### Work to be done
 - Plan next improvements to be made to pipeline
 - Discuss about sequence modelling and tracking
