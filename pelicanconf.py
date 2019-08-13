@@ -32,7 +32,9 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-STATIC_PATHS = ['images', 'data', 'videos', 'pdfs']
+STATIC_PATHS = ['images', 'data', 'videos', 'pdfs', 'res']
+PAGE_EXCLUDES = STATIC_PATHS
+ARTICLE_EXCLUDES = STATIC_PATHS
 MD_EXTENSIONS = ['fenced_code', 'codehilite(css_class=highlight, linenums=True)', 'extra', 'tables']
 MARKDOWN = {
     'output_format': 'html5',

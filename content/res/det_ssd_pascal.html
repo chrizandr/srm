@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides1 {display:none;}
+.mySlides2 {display:none;}
+</style>
+
+<body>
+  <h2> SSD: Pascal VOC 2007 </h1>
+<h3 class="w3-center">Good detections (Precision > 50%)</h3>
+<div class="w3-content w3-display-container">
+  <img class="mySlides1" src="../images/detection/ssd/good/0.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/1.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/2.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/3.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/4.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/5.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/6.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/7.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/8.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides1" src="../images/detection/ssd/good/9.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs1(1)">&#10095;</button>
+</div>
+
+<hr>
+<h3 class="w3-center">Bad detections (Precision < 10%)</h3>
+<div class="w3-content w3-display-container">
+  <img class="mySlides2" src="../images/detection/ssd/bad/0.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/1.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/2.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/3.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/4.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/5.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/6.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/7.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/8.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+  <img class="mySlides2" src="../images/detection/ssd/bad/9.png" style="width:50%; display: block; margin-left: auto; margin-right: auto;">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex1 = 1;
+var slideIndex2 = 1;
+showDivs1(slideIndex1);
+showDivs2(slideIndex2);
+
+function plusDivs1(n) {
+  showDivs1(slideIndex1 += n);
+}
+function plusDivs2(n) {
+  showDivs2(slideIndex2 += n);
+}
+
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) {slideIndex1 = 1}
+  if (n < 1) {slideIndex1 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex1-1].style.display = "block";
+}
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex2-1].style.display = "block";
+}
+</script>
+<br><br>
+</body>
+</html>
