@@ -16,11 +16,19 @@ Evaluated detection baselines using 4 new models
     </tr>
   </thead>
   <tbody>
-    <tr class='clickable-row' data-href='url://link-for-first-row/'> <td>Faster RCNN</td> <td>Resnet-101</td> <td>MS COCO</td> <td>0.55</td> <td>0.361</td> <td>0.351</td> <tr>
-    <tr> <td>YOLOv3</td> <td>-</td> <td>MS COCO</td> <td>0.483</td> <td>0.244</td> <td>0.259</td> </tr>
+    <tr class='clickable-row' data-href='url://link-for-first-row/'> <td>Faster RCNN</td> <td>Resnet-101</td> <td>MS COCO</td> <td>0.795</td>
+    <td>0.519</td>
+    <td>0.503</td><tr>
+    <tr> <td>YOLOv3</td> <td>-</td> <td>MS COCO</td> <td>0.491</td>
+    <td>0.259</td>
+    <td>0.268</td> </tr>
     <tr> <td>SSD </td> <td>VGG16</td> <td>Pascal VOC 2007</td> <td>0.402</td> <td>0.21</td> <td>0.223 </td> </tr>
-    <tr> <td>Faster RCNN</td> <td> VGG16</td> <td> Pascal VOC 2007</td> <td>0.653</td> <td>0.267</td> <td>0.315</td></tr>
-    <tr> <td>Faster RCNN</td> <td>Resnet-101</td> <td>Pascal VOC 2007</td> <td>0.612</td> <td>0.317</td> <td>0.321</td></tr>
+    <tr> <td>Faster RCNN</td> <td> VGG16</td> <td> Pascal VOC 2007</td> <td>0.661</td>
+    <td>0.317</td>
+    <td>0.343</td></tr>
+    <tr> <td>Faster RCNN</td> <td>Resnet-101</td> <td>Pascal VOC 2007</td> <td>0.680</td>
+    <td>0.377</td>
+    <td>0.374</td></tr>
   </tbody>
 </table>
 

@@ -1,12 +1,13 @@
-Title: Sport Analytics Report 8
-Slug: sports-report-8
+Title: Sport Analytics Report 9
+Slug: sports-report-9
 Category: Thesis
-Date: 2019-08-13
-Modified: 2019-08-13
+Date: 2019-08-20
+Modified: 2019-08-20
 Authors: Chris Andrew
 
 ### Detection baselines
-Evaluated detection baselines using 4 new models
+Added new visualisation tool and new model
+Testing done on recognition set of 400 images
 <table class="table table-bordered table-hover">
   <thead>
     <tr>
@@ -20,7 +21,7 @@ Evaluated detection baselines using 4 new models
   </thead>
   <tbody>
     <tr>
-      <td><a href="{filename}/res/det_res101_coco.html">Faster RCNN</a></td>
+      <td><a href="http://preon.iiit.ac.in:8888/?model=res101_coco_img">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>MS COCO</td>
       <td>0.795</td>
@@ -28,7 +29,7 @@ Evaluated detection baselines using 4 new models
       <td>0.503</td>
     <tr>
     <tr>
-      <td><a href="{filename}/res/det_yolo_coco.html">YOLOv3</a></td>
+      <td><a href="http://preon.iiit.ac.in:8888/?model=yolo">YOLOv3</a></td>
       <td>-</td>
       <td>MS COCO</td>
       <td>0.491</td>
@@ -36,7 +37,7 @@ Evaluated detection baselines using 4 new models
       <td>0.268</td>
     </tr>
     <tr>
-      <td><a href="{filename}/res/det_ssd_pascal.html">SSD </a></td>
+      <td><a href="http://preon.iiit.ac.in:8888/?model=ssd">SSD </a></td>
       <td>VGG16</td>
       <td>Pascal VOC 2007</td>
       <td>0.402</td>
@@ -44,7 +45,7 @@ Evaluated detection baselines using 4 new models
       <td>0.223 </td>
     </tr>
     <tr>
-      <td><a href="{filename}/res/det_vgg_pascal.html">Faster RCNN</a></td>
+      <td><a href="http://preon.iiit.ac.in:8888/?model=vgg16_pascal_img">Faster RCNN</a></td>
       <td> VGG16</td>
       <td> Pascal VOC 2007</td>
       <td>0.661</td>
@@ -52,19 +53,23 @@ Evaluated detection baselines using 4 new models
       <td>0.343</td>
     </tr>
     <tr>
-      <td><a href="{filename}/res/det_res101_pascal.html">Faster RCNN</a></td>
+      <td><a href="http://preon.iiit.ac.in:8888/?model=res101_pascal_img">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>Pascal VOC 2007</td>
       <td>0.680</td>
       <td>0.377</td>
       <td>0.374</td>
     </tr>
+    <tr>
+      <td><a href="http://preon.iiit.ac.in:8888/?model=yolo-vijay">Faster RCNN</a></td>
+      <td>YOLOv3</td>
+      <td>Vijay Recognition data</td>
+      <td>0.062</td>
+      <td>0.021</td>
+      <td>0.028</td>
+    </tr>
   </tbody>
 </table>
-
-### Finetuning detection models
-- I tried finetuning of Faster RCNN on my dataset of 400 images, which I split as 300 for Training and 100 for Testing. The model started overfitting the training data after only 22 epochs.
-- The main reason I think behind it overfitting is that the dataset is very small. I have started training the models instead on Vijays larger dataset of 50k images.
 
 -------
 ### Work to be done
