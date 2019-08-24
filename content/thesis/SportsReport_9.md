@@ -73,5 +73,5 @@ Testing done on recognition set of 400 images
 
 -------
 ### Work to be done
-- Show results after finetuning the data.
-- Plan for next steps
+- Create test set of 1000 images
+- Train model using 400 image data and test with 1000 test set
