@@ -1,5 +1,5 @@
-Title: Sport Analytics Report 9
-Slug: sports-report-9
+Title: Sport Analytics Report 10
+Slug: sports-report-10
 Category: Thesis
 Date: 2019-08-27
 Modified: 2019-08-27
