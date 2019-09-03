@@ -29,22 +29,6 @@ Testing done on recognition set of 400 images
       <td>0.503</td>
     <tr>
     <tr>
-      <td><a href="http://preon.iiit.ac.in:8888/?model=yolo">YOLOv3</a></td>
-      <td>-</td>
-      <td>MS COCO</td>
-      <td>0.491</td>
-      <td>0.259</td>
-      <td>0.268</td>
-    </tr>
-    <tr>
-      <td><a href="http://preon.iiit.ac.in:8888/?model=ssd">SSD </a></td>
-      <td>VGG16</td>
-      <td>Pascal VOC 2007</td>
-      <td>0.402</td>
-      <td>0.21</td>
-      <td>0.223 </td>
-    </tr>
-    <tr>
       <td><a href="http://preon.iiit.ac.in:8888/?model=vgg16_pascal_img">Faster RCNN</a></td>
       <td> VGG16</td>
       <td> Pascal VOC 2007</td>
@@ -61,12 +45,28 @@ Testing done on recognition set of 400 images
       <td>0.374</td>
     </tr>
     <tr>
-      <td><a href="http://preon.iiit.ac.in:8888/?model=yolo-vijay">Faster RCNN</a></td>
-      <td>YOLOv3</td>
+      <td><a href="http://preon.iiit.ac.in:8888/?model=yolo">YOLOv3</a></td>
+      <td>-</td>
+      <td>MS COCO</td>
+      <td>0.491</td>
+      <td>0.259</td>
+      <td>0.268</td>
+    </tr>
+    <tr>
+      <td><a href="http://preon.iiit.ac.in:8888/?model=yolo-vijay">YOLOv3</a></td>
+      <td>-</td>
       <td>Vijay Recognition data</td>
       <td>0.062</td>
       <td>0.021</td>
       <td>0.028</td>
+    </tr>
+    <tr>
+    <td><a href="http://preon.iiit.ac.in:8888/?model=ssd">SSD </a></td>
+    <td>VGG16</td>
+    <td>Pascal VOC 2007</td>
+    <td>0.402</td>
+    <td>0.21</td>
+    <td>0.223 </td>
     </tr>
   </tbody>
 </table>
