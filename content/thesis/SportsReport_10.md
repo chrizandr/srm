@@ -10,7 +10,7 @@ Added results using new test set of 1000 images
 Generated visualisation of results using new test set
 <table class="table table-bordered table-hover">
   <thead>
-    <tr>
+    <tr class="header">
       <th>Architecture</th>
       <th>Base model</th>
       <th>Training data</th>
@@ -20,15 +20,15 @@ Generated visualisation of results using new test set
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=res101_coco_new">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>MS COCO</td>
       <td>0.696</td>
       <td>0.367</td>
       <td>0.384</td>
-    <tr>
-    <tr>
+    </tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=vgg16_pascal_new">Faster RCNN</a></td>
       <td> VGG16</td>
       <td> Pascal VOC 2007</td>
@@ -36,7 +36,7 @@ Generated visualisation of results using new test set
       <td>0.242</td>
       <td>0.285</td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=res101_pascal_new">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>Pascal VOC 2007</td>

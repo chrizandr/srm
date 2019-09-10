@@ -41,12 +41,17 @@
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css" />
     <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
     <script src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
+    <script src="{{ SITEURL }}/theme/js/main.js"></script>
     <meta name="generator" content="Pelican" />
     <meta name="description" content="{{ SITEDESCRIPTION }}" />
     <meta name="author" content="{{ AUTHOR }}" />
     {% endblock head %}
 </head>
 <body>
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
     {% if DISPLAY_HEADER or DISPLAY_HEADER is not defined %}
     <header>
         {% if DISPLAY_MENU or DISPLAY_MENU is not defined %}
@@ -104,4 +109,24 @@
     </div>
 {% include 'analytics.html' %}
 </body>
+<script>
+var modal = document.getElementById("myModal");
+
+var imgs = document.getElementsByTagName("img");
+var modalImg = document.getElementById("img01");
+for (i = 0; i < imgs.length; i++) {
+  imgs[i].onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+}
+
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
 </html>

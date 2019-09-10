@@ -9,7 +9,7 @@ Authors: Chris Andrew
 Evaluated detection baselines using 4 new models
 <table class="table table-bordered table-hover">
   <thead>
-    <tr>
+    <tr class="header">
       <th>Architecture</th>
       <th>Base model</th>
       <th>Training data</th>
@@ -19,15 +19,15 @@ Evaluated detection baselines using 4 new models
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="header">
       <td><a href="{filename}/res/det_res101_coco.html">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>MS COCO</td>
       <td>0.795</td>
       <td>0.519</td>
       <td>0.503</td>
-    <tr>
-    <tr>
+    <tr class="header">
+    <tr class="header">
       <td><a href="{filename}/res/det_yolo_coco.html">YOLOv3</a></td>
       <td>-</td>
       <td>MS COCO</td>
@@ -35,7 +35,7 @@ Evaluated detection baselines using 4 new models
       <td>0.259</td>
       <td>0.268</td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="{filename}/res/det_ssd_pascal.html">SSD </a></td>
       <td>VGG16</td>
       <td>Pascal VOC 2007</td>
@@ -43,7 +43,7 @@ Evaluated detection baselines using 4 new models
       <td>0.21</td>
       <td>0.223 </td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="{filename}/res/det_vgg_pascal.html">Faster RCNN</a></td>
       <td> VGG16</td>
       <td> Pascal VOC 2007</td>
@@ -51,7 +51,7 @@ Evaluated detection baselines using 4 new models
       <td>0.317</td>
       <td>0.343</td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="{filename}/res/det_res101_pascal.html">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>Pascal VOC 2007</td>

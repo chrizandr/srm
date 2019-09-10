@@ -8,7 +8,7 @@ Authors: Chris Andrew
 #### All results with new 1300 image test set.
 <table class="table table-bordered table-hover">
   <thead>
-    <tr>
+    <tr class="header">
       <th>Architecture</th>
       <th>Base model</th>
       <th>Training data</th>
@@ -19,7 +19,7 @@ Authors: Chris Andrew
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=res101_coco_new">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>MS COCO</td>
@@ -28,7 +28,7 @@ Authors: Chris Andrew
       <td>0.367</td>
       <td>0.384</td>
     </tr>
-    <tr style="border-bottom: 2px solid #808080;">
+    <tr class="header" style="border-bottom: 2px solid #808080;">
       <td><a href="http://preon.iiit.ac.in:8888/?model=res101_coco_img">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>MS COCO</td>
@@ -37,7 +37,7 @@ Authors: Chris Andrew
       <td>0.5197</td>
       <td>0.5031</td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=res101_pascal_new">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>Pascal VOC 2007</td>
@@ -46,7 +46,7 @@ Authors: Chris Andrew
       <td>0.311</td>
       <td>0.318</td>
     </tr>
-    <tr style="border-bottom: 2px solid #808080;">
+    <tr class="header" style="border-bottom: 2px solid #808080;">
       <td><a href="http://preon.iiit.ac.in:8888/?model=res101_pascal_img">Faster RCNN</a></td>
       <td>Resnet-101</td>
       <td>Pascal VOC 2007</td>
@@ -55,7 +55,7 @@ Authors: Chris Andrew
       <td>0.3773</td>
       <td>0.3740</td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=vgg16_pascal_new">Faster RCNN</a></td>
       <td>VGG16</td>
       <td>Pascal VOC 2007</td>
@@ -64,7 +64,7 @@ Authors: Chris Andrew
       <td>0.242</td>
       <td>0.285</td>
     </tr>
-    <tr style="border-bottom: 2px solid #808080;">
+    <tr class="header" style="border-bottom: 2px solid #808080;">
       <td><a href="http://preon.iiit.ac.in:8888/?model=vgg16_pascal_img">Faster RCNN</a></td>
       <td>VGG16</td>
       <td>Pascal VOC 2007</td>
@@ -73,7 +73,7 @@ Authors: Chris Andrew
       <td>0.3171</td>
       <td>0.3431</td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=yolo-new">YOLOv3</a></td>
       <td>-</td>
       <td>MS COCO</td>
@@ -82,7 +82,7 @@ Authors: Chris Andrew
     	<td>0.1698</td>
     	<td>0.2276</td>
     </tr>
-    <tr style="border-bottom: 2px solid #808080;">
+    <tr class="header" style="border-bottom: 2px solid #808080;">
       <td><a href="http://preon.iiit.ac.in:8888/?model=yolo">YOLOv3</a></td>
       <td>-</td>
       <td>MS COCO</td>
@@ -97,7 +97,7 @@ Authors: Chris Andrew
 #### Results from finetuning experiment on YOLOv3
 <table class="table table-bordered table-hover">
   <thead>
-    <tr>
+    <tr class="header">
       <th>Architecture</th>
       <th>Base model</th>
       <th>Training data</th>
@@ -108,7 +108,7 @@ Authors: Chris Andrew
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=yolo-new">YOLOv3</a></td>
       <td>-</td>
       <td>MS COCO</td>
@@ -117,7 +117,7 @@ Authors: Chris Andrew
       <td>0.1698</td>
       <td>0.2276</td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=yolo-vijay">YOLOv3</a></td>
       <td>-</td>
       <td>MS COCO</td>
@@ -126,7 +126,7 @@ Authors: Chris Andrew
       <td>0.0169</td>
       <td>0.0158</td>
     </tr>
-    <tr>
+    <tr class="header">
       <td><a href="http://preon.iiit.ac.in:8888/?model=yolo-300">YOLOv3</a></td>
       <td>-</td>
       <td>MS COCO</td>
@@ -140,4 +140,4 @@ Authors: Chris Andrew
 -------
 ### Work to be done
 - Read papers and prepare for next direction(Detection/Analytics)
-- Discuss about thesis problem.
+Discuss about thesis problem.
