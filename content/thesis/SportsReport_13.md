@@ -35,9 +35,9 @@ Authors: Chris Andrew
 </table>
 - Annotated one full 2 hour football match completely, still need to annotate 2 more matches.
 - Created a classifier for classifying the view in a frame.
-    - Used a BoW model with SIFT features and temporal smoothening to classify a given frame.
+    - Used a BoW model with SIFT features to classify a given frame.
     - Predicts one of five views: [top zoomed-in, top zoomed-out, ground zoomed-in, ground zoomed-out, others]
-    - Training: 1300 images set. Test: 400 images set.
+    - Training: 300 images set. Test: 100 images set.
     - Acheived 97.43% accuracy in classification for 5 views.
 -------
 ### Work to be done
