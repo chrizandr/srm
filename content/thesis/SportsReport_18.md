@@ -1,5 +1,5 @@
 Title: Sport Analytics Report 18
-Slug: sports-report-19
+Slug: sports-report-18
 Category: Thesis
 Date: 2019-12-02
 Modified: 2019-12-02
