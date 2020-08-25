@@ -28,7 +28,7 @@ Authors: Chris Andrew
     <td>MS Coco</td>
     <td>-</td>
     <td>France vs Croatia - video</td>
-    <td>mAP - 0.71 <br> F1 - 0.603</td>
+    <td>mAP - 0.68 <br> F1 - 0.24</td>
     </tr>
     <tr class="header">
       <td>YOLOv3</td>
@@ -36,7 +36,7 @@ Authors: Chris Andrew
       <td>MS Coco</td>
       <td>France vs Croatia - video</td>
       <td>France vs Croatia - video</td>
-      <td>mAP - 0.62 <br> F1 - 0.541</td>
+      <td>mAP - 0.62 <br> F1 - 0.14</td>
     </tr>
   </tbody>
 </table>
