@@ -1,14 +1,14 @@
 Title: Sport Analytics Report 33
 Slug: sports-report-33
 Category: Thesis
-Date: 2020-08-31
-Modified: 2020-08-31
+Date: 2020-09-01
+Modified: 2020-09-01
 Authors: Chris Andrew
 
 #### Updates
 - Results for experiments with using subset of annotated data to train model
 
-#### FP pruning results for France vs Croatia video.
+#### Results for France vs Croatia video.
 <table class="table table-bordered table-hover">
   <thead>
     <tr class="header">
