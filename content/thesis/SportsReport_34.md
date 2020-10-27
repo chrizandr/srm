@@ -1,8 +1,8 @@
 Title: Sport Analytics Report 34
 Slug: sports-report-34
 Category: Thesis
-Date: 2020-09-21
-Modified: 2020-09-21
+Date: 2020-09-29
+Modified: 2020-09-29
 Authors: Chris Andrew
 
 #### Updates
