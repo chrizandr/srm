@@ -1,14 +1,16 @@
-Title: Sport Analytics Report 39
-Slug: sports-report-39
+Title: Sport Analytics Report 40
+Slug: sports-report-40
 Category: Thesis
-Date: 2021-02-15
-Modified: 2021-02-15
+Date: 2021-03-08
+Modified: 2021-03-08
 Authors: Chris Andrew
 
 #### Work done
-- Reproduced detection method on second video. Got similar results as the first one. Method seems to be consistent
+- Reproduced detection method on third video.
+- Started writing paper for detection work and dataset. [https://www.overleaf.com/1883171775tyfnmbckmwgc](https://www.overleaf.com/1883171775tyfnmbckmwgc)
 
-Results of clustering approach for semi supervised learning for 2 videos (France vs Croatia) and (France vs Belgium)
+
+Results of clustering approach for semi supervised learning for 3 videos (France vs Croatia), (France vs Belgium) and (England vs Croatia).
 
 <table class="table table-bordered table-hover">
   <thead>
@@ -83,9 +85,36 @@ Results of clustering approach for semi supervised learning for 2 videos (France
     <td><b>0.821</b></td>
     </tr>
   </tbody>
+  <tbody>
+    <tr class="header">
+    <td>YOLOv3-pretrained</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>0.461</td>
+    <td>0.872</td>
+    <td>0.643</td>
+    <td>0.571</td>
+    <td>0.913</td>
+    <td><b>0.714</b></td>
+    </tr>
+
+    <tr class="header">
+    <td>YOLOv3-pretrained</td>
+    <td>Detection+Upsampling layers</td>
+    <td>105 bounding boxes(cluster centers) </td>
+    <td>91732 frames (Eng vs Cr)</td>
+    <td>0.763</td>
+    <td>0.809</td>
+    <td>0.786</td>
+    <td>0.746</td>
+    <td>0.971</td>
+    <td><b>0.804</b></td>
+    </tr>
+  </tbody>
 </table>
 
 
 #### Work to be done
-- Need to reproduce these results for remaining two videos - Croatia vs. England and Belgium vs. England
-- Start writing paper for detection work.
+- One more video remaining.
+- Finish and share initial version of draft by end of week.
